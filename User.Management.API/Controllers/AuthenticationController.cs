@@ -42,17 +42,28 @@ namespace User.Management.API.Controllers
                 UserName = registerUser.Username
             };
 
-            var result = await _userManager.CreateAsync(user, registerUser.Password);
-            return result.Succeeded
-            ? StatusCode(StatusCodes.Status201Created,
-                    new Response { Status = "Success", Message = "User Created Successfully!" })
-           
-            : StatusCode(StatusCodes.Status500InternalServerError,
-                    new Response { Status = "Error", Message = "User Failed to Create" });
-            
+            if (await _roleManager.RoleExistsAsync(role)) 
+            {
 
-            //Assign Role
+                var result = await _userManager.CreateAsync(user, registerUser.Password);
 
-        }
+                if (!result.Succeeded)
+                {
+                   return StatusCode(StatusCodes.Status500InternalServerError,
+                           new Response { Status = "Error", Message = "User Failed to Create" });
+                }
+
+                //Add role to the user
+               await  _userManager.AddToRoleAsync(user, role);
+                return StatusCode(StatusCodes.Status201Created,
+                           new Response { Status = "Success", Message = "User Created Successfullly" });
+
+            }
+            else
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                       new Response { Status = "Error", Message = "This Role Doesnot Exist" });
+            }
+          }
         }
     }
