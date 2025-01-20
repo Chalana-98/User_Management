@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
+              "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T08:56:26.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
               "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Models\\ApplicationDbContext.cs",
               "RelativeToolTip": "Models\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCcAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T05:37:50.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
