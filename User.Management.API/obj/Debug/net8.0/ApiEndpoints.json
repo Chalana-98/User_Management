@@ -21,6 +21,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "User.Management.API.Controllers.AuthenticationController",
+    "Method": "TestEmail",
+    "RelativePath": "api/Authentication",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "User.Management.API.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

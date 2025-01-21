@@ -177,3 +177,9 @@ E:\Programmming\.NET\Projects\User_Management\User.Management.API\bin\Debug\net8
 E:\Programmming\.NET\Projects\User_Management\User.Management.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 E:\Programmming\.NET\Projects\User_Management\User.Management.API\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 E:\Programmming\.NET\Projects\User_Management\User.Management.API\obj\Debug\net8.0\User.Management.API.sourcelink.json
+E:\Programmming\.NET\Projects\User_Management\User.Management.API\bin\Debug\net8.0\MailKit.dll
+E:\Programmming\.NET\Projects\User_Management\User.Management.API\bin\Debug\net8.0\MimeKit.dll
+E:\Programmming\.NET\Projects\User_Management\User.Management.API\bin\Debug\net8.0\NETCore.MailKit.dll
+E:\Programmming\.NET\Projects\User_Management\User.Management.API\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+E:\Programmming\.NET\Projects\User_Management\User.Management.API\bin\Debug\net8.0\User.Management.Service.dll
+E:\Programmming\.NET\Projects\User_Management\User.Management.API\bin\Debug\net8.0\User.Management.Service.pdb

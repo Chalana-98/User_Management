@@ -7,16 +7,21 @@
       "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5EEAF874-90B8-4691-A3E9-2F87F3C34C90}|..\\User.Management.Service\\User.Management.Service.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.service\\models\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EEAF874-90B8-4691-A3E9-2F87F3C34C90}|..\\User.Management.Service\\User.Management.Service.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.service\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EEAF874-90B8-4691-A3E9-2F87F3C34C90}|..\\User.Management.Service\\User.Management.Service.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.service\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,34 +49,62 @@
               "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
               "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowC8AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowDIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T08:56:26.669Z",
+              "WhenOpened": "2025-01-21T11:09:19.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.Service\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "..\\User.Management.Service\\Services\\IEmailService.cs",
+              "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.Service\\Services\\IEmailService.cs",
+              "RelativeToolTip": "..\\User.Management.Service\\Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T09:35:10.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Message.cs",
+              "DocumentMoniker": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.Service\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "..\\User.Management.Service\\Models\\Message.cs",
+              "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.Service\\Models\\Message.cs",
+              "RelativeToolTip": "..\\User.Management.Service\\Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T09:22:42.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailConfiguration.cs",
+              "DocumentMoniker": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.Service\\Models\\EmailConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\User.Management.Service\\Models\\EmailConfiguration.cs",
+              "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.Service\\Models\\EmailConfiguration.cs",
+              "RelativeToolTip": "..\\User.Management.Service\\Models\\EmailConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T09:19:47.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Models\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
-              "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Models\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T05:37:50.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-20T05:36:12.889Z"
+              "WhenOpened": "2025-01-20T05:36:12.889Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -81,9 +114,10 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwCEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAD4vx4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T05:26:27.427Z"
+              "WhenOpened": "2025-01-20T05:26:27.427Z",
+              "EditorCaption": ""
             }
           ]
         }
