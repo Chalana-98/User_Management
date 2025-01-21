@@ -43,10 +43,28 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Authentication/ConfirmEmail": {
       "get": {
         "tags": [
           "Authentication"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "email",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {

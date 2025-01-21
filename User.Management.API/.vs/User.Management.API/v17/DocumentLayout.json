@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,7 +31,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,13 +43,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
               "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowDIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAswEEAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T11:09:19.895Z",
               "EditorCaption": ""
@@ -64,8 +64,7 @@
               "RelativeToolTip": "..\\User.Management.Service\\Services\\IEmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T09:35:10.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-21T09:35:10.88Z"
             },
             {
               "$type": "Document",
@@ -77,8 +76,7 @@
               "RelativeToolTip": "..\\User.Management.Service\\Models\\Message.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T09:22:42.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-21T09:22:42.932Z"
             },
             {
               "$type": "Document",
@@ -90,12 +88,11 @@
               "RelativeToolTip": "..\\User.Management.Service\\Models\\EmailConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T09:19:47.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-21T09:19:47.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -114,7 +111,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAD4vx4AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T05:26:27.427Z",
               "EditorCaption": ""
