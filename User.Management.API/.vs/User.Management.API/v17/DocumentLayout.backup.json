@@ -3,25 +3,33 @@
   "WorkspaceRootPath": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EEAF874-90B8-4691-A3E9-2F87F3C34C90}|..\\User.Management.Service\\User.Management.Service.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.service\\models\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EEAF874-90B8-4691-A3E9-2F87F3C34C90}|..\\User.Management.Service\\User.Management.Service.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.service\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EEAF874-90B8-4691-A3E9-2F87F3C34C90}|..\\User.Management.Service\\User.Management.Service.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.service\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.api\\models\\authentication\\login\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8744DF0-62F3-4050-A50B-DC067381B4D8}|User.Management.API.csproj|solutionrelative:models\\authentication\\login\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EEAF874-90B8-4691-A3E9-2F87F3C34C90}|..\\User.Management.Service\\User.Management.Service.csproj|e:\\programmming\\.net\\projects\\user_management\\user.management.service\\models\\emailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,12 +52,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T10:38:37.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Models\\Authentication\\Login\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\Authentication\\Login\\LoginModel.cs",
+              "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Models\\Authentication\\Login\\LoginModel.cs",
+              "RelativeToolTip": "Models\\Authentication\\Login\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T08:58:37.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
               "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAswEEAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAIwI4AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T11:09:19.895Z",
               "EditorCaption": ""
@@ -64,7 +98,8 @@
               "RelativeToolTip": "..\\User.Management.Service\\Services\\IEmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T09:35:10.88Z"
+              "WhenOpened": "2025-01-21T09:35:10.88Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -74,13 +109,14 @@
               "RelativeDocumentMoniker": "..\\User.Management.Service\\Models\\Message.cs",
               "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.Service\\Models\\Message.cs",
               "RelativeToolTip": "..\\User.Management.Service\\Models\\Message.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T09:22:42.932Z"
+              "WhenOpened": "2025-01-21T09:22:42.932Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "EmailConfiguration.cs",
               "DocumentMoniker": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.Service\\Models\\EmailConfiguration.cs",
               "RelativeDocumentMoniker": "..\\User.Management.Service\\Models\\EmailConfiguration.cs",
@@ -88,17 +124,18 @@
               "RelativeToolTip": "..\\User.Management.Service\\Models\\EmailConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T09:19:47.502Z"
+              "WhenOpened": "2025-01-21T09:19:47.502Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-20T05:36:12.889Z",
               "EditorCaption": ""
@@ -111,7 +148,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAGUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T05:26:27.427Z",
               "EditorCaption": ""
