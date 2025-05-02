@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.Service\\User.Management.Service.csproj": {}
+    "E:\\Programmming\\.NET\\Identity Server\\User.Management.Service\\User.Management.Service.csproj": {}
   },
   "projects": {
-    "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.Service\\User.Management.Service.csproj": {
+    "E:\\Programmming\\.NET\\Identity Server\\User.Management.Service\\User.Management.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.Service\\User.Management.Service.csproj",
+        "projectUniqueName": "E:\\Programmming\\.NET\\Identity Server\\User.Management.Service\\User.Management.Service.csproj",
         "projectName": "User.Management.Service",
-        "projectPath": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.Service\\User.Management.Service.csproj",
+        "projectPath": "E:\\Programmming\\.NET\\Identity Server\\User.Management.Service\\User.Management.Service.csproj",
         "packagesPath": "C:\\Users\\Chalana\\.nuget\\packages\\",
-        "outputPath": "E:\\Programmming\\.NET\\Projects\\User_Management\\User.Management.Service\\obj\\",
+        "outputPath": "E:\\Programmming\\.NET\\Identity Server\\User.Management.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -11,3 +11,16 @@ E:\Programmming\.NET\Projects\User_Management\User.Management.Service\obj\Debug\
 E:\Programmming\.NET\Projects\User_Management\User.Management.Service\obj\Debug\net8.0\refint\User.Management.Service.dll
 E:\Programmming\.NET\Projects\User_Management\User.Management.Service\obj\Debug\net8.0\User.Management.Service.pdb
 E:\Programmming\.NET\Projects\User_Management\User.Management.Service\obj\Debug\net8.0\ref\User.Management.Service.dll
+E:\Programmming\.NET\Identity Server\User.Management.Service\bin\Debug\net8.0\User.Management.Service.deps.json
+E:\Programmming\.NET\Identity Server\User.Management.Service\bin\Debug\net8.0\User.Management.Service.dll
+E:\Programmming\.NET\Identity Server\User.Management.Service\bin\Debug\net8.0\User.Management.Service.pdb
+E:\Programmming\.NET\Identity Server\User.Management.Service\obj\Debug\net8.0\User.Management.Service.csproj.AssemblyReference.cache
+E:\Programmming\.NET\Identity Server\User.Management.Service\obj\Debug\net8.0\User.Management.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programmming\.NET\Identity Server\User.Management.Service\obj\Debug\net8.0\User.Management.Service.AssemblyInfoInputs.cache
+E:\Programmming\.NET\Identity Server\User.Management.Service\obj\Debug\net8.0\User.Management.Service.AssemblyInfo.cs
+E:\Programmming\.NET\Identity Server\User.Management.Service\obj\Debug\net8.0\User.Management.Service.csproj.CoreCompileInputs.cache
+E:\Programmming\.NET\Identity Server\User.Management.Service\obj\Debug\net8.0\User.Management.Service.sourcelink.json
+E:\Programmming\.NET\Identity Server\User.Management.Service\obj\Debug\net8.0\User.Management.Service.dll
+E:\Programmming\.NET\Identity Server\User.Management.Service\obj\Debug\net8.0\refint\User.Management.Service.dll
+E:\Programmming\.NET\Identity Server\User.Management.Service\obj\Debug\net8.0\User.Management.Service.pdb
+E:\Programmming\.NET\Identity Server\User.Management.Service\obj\Debug\net8.0\ref\User.Management.Service.dll
