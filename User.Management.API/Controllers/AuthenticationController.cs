@@ -18,13 +18,16 @@ namespace User.Management.API.Controllers
     public class AuthenticationController : ControllerBase
     {
         private readonly UserManager<IdentityUser> _userManager;
+        private readonly SignInManager<IdentityUser> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IEmailService _emailService;
         private readonly IConfiguration _configuration;
         public AuthenticationController(UserManager<IdentityUser> userManager,
-            RoleManager<IdentityRole> roleManager, IConfiguration configuration, IEmailService emailService)
+            RoleManager<IdentityRole> roleManager,IEmailService emailService,
+            SignInManager<IdentityUser>signInManager,IConfiguration configuration)
         {
             _userManager = userManager;
+            _signInManager = signInManager;
             _roleManager = roleManager;
             _configuration = configuration;
             _emailService = emailService;
@@ -49,7 +52,8 @@ namespace User.Management.API.Controllers
             {
                 Email = registerUser.Email,
                 SecurityStamp = Guid.NewGuid().ToString(),
-                UserName = registerUser.Username
+                UserName = registerUser.Username,
+                TwoFactorEnabled=true
             };
 
             if (await _roleManager.RoleExistsAsync(role))
@@ -125,12 +129,58 @@ namespace User.Management.API.Controllers
                     authCliams.Add(new Claim(ClaimTypes.Role, role));
                 }
 
+                if (user.TwoFactorEnabled)
+                {   
+                    await _signInManager.SignOutAsync();
+                    await _signInManager.PasswordSignInAsync(user, loginModel.Password, false, true);
+
+                    var token = await _userManager.GenerateTwoFactorTokenAsync(user, "Email");
+                    var message = new Message(new string[] { user.Email! }, "OTP Conffrimation", token!);
+                    _emailService.SendEmail(message);
+
+
+                    return StatusCode(StatusCodes.Status200OK,
+                    new Response { Status = "Success", Message = $"We have sent an OTP to your Email {user.Email}" });
+                }
+
                 var jwtToken = GetToken(authCliams);
                 return Ok(new
                 {
                     token = new JwtSecurityTokenHandler().WriteToken(jwtToken),
                     expiration = jwtToken.ValidTo
                 });
+            }
+            return Unauthorized();
+
+        }
+
+        [HttpPost]
+        [Route("login-2FA")]
+        public async Task<IActionResult> LoginWithOTP(string code, string username)
+        {
+            var user = await _userManager.FindByNameAsync(username);
+            var signIn = await _signInManager.TwoFactorSignInAsync("Email", code, false, false);
+            if (signIn.Succeeded) 
+            {
+             if(user != null)
+                {
+                    var authCliams = new List<Claim>
+                   {
+                       new Claim(ClaimTypes.Name, user.UserName),
+                       new Claim(JwtRegisteredClaimNames.Jti,Guid.NewGuid().ToString()),
+                   };
+                    var userRoles = await _userManager.GetRolesAsync(user);
+                    foreach (var role in userRoles)
+                    {
+                        authCliams.Add(new Claim(ClaimTypes.Role, role));
+                    }
+                    var jwtToken = GetToken(authCliams);
+                    return Ok(new
+                    {
+                        token = new JwtSecurityTokenHandler().WriteToken(jwtToken),
+                        expiration = jwtToken.ValidTo
+                    });
+                }
             }
             return Unauthorized();
 
